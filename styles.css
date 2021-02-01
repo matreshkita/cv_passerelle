@@ -1,133 +1,169 @@
-        .header {
-            background-color: #f2cbba;
-        }
-        
         .cv {
-            background-color: #e3d4f3;
-        }
-        
-        footer {
-            background-color: #f2cbba;
-            text-align: center;
-            padding-top: 3px;
-            padding-bottom: 30px;
-        }
-        
-        .tablebody {
-            vertical-align: top;
-        }
-        
-        a {
-            color: #322d72;
-        }
-        
-        h1 {
-            font-family: 'Heebo', sans-serif;
-            font-weight: 800;
-            font-size: 28pt;
-            color: rgb(54, 38, 47);
-            background: #e3d4f3;
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
-        
-        h2 {
-            font-family: 'Heebo', sans-serif;
-            font-weight: 800;
-            font-size: 18pt;
-            color: rgb(29, 46, 46);
-        }
-        
-        h3 {
-            font-family: 'Heebo', sans-serif;
-            font-weight: 400;
-            font-size: 12pt;
-            color: rgb(29, 46, 46);
-            ;
-        }
-        
-        .header {
-            display: flex;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        
-        .main {
-            max-width: 50%;
-        }
-        
-        #profileimg {
-            max-width: 40%;
-            height: auto;
-            margin-left: 56%;
-            padding-top: 10px;
-            padding-bottom: 5px;
-        }
-        
-        .introtext {
-            max-width: 50%;
-            position: relative;
-            padding-top: 35px;
-        }
-        
-        .introtext p,
-        a {
-            font-family: 'Heebo', sans-serif;
-            font-weight: 400;
-            font-size: 11pt;
-            padding-left: 2px;
-        }
-        
-        .introtext p {
-            color: rgb(54, 38, 47);
-        }
-        
-        table {
-            width: 50%;
-            margin: 0 auto;
-            text-align: left;
-            line-height: 0.9;
-            padding-bottom: 10px;
-            padding-top: 5px;
-            ;
-        }
-        
-        .educ {
-            position: relative;
-            right: 25px;
-            text-align: right;
-        }
-        
-        .job {
-            text-align: left;
-        }
-        
-        table p {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            font-size: 10pt;
-            color: rgb(69, 78, 95);
-        }
-        
-        ul {
-            display: flex;
-            justify-content: space-around;
-            margin-left: 0;
-            padding-left: 0;
-            padding-top: 10px;
-        }
-        
-        li {
-            font-family: 'Heebo', sans-serif;
-            font-weight: 400;
-            font-size: 12pt;
-            color: rgb(54, 38, 47);
-            list-style-type: none;
-            background: #e3d4f3;
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
-        
-        footer h2 {
-            color: rgb(54, 38, 47)
-        }
+    background-color: #f3ebfc;
+}
+
+footer {
+    background-color: #ffeee7;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+
+.tablebody {
+    vertical-align: top;
+}
+
+a {
+    color: #322d72;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 28pt;
+    color: rgb(54, 38, 47);
+    background: #f3ebfc;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 18pt;
+    color: rgb(29, 46, 46);
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: rgb(29, 46, 46);
+    ;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffeee7;
+}
+
+.introtext p,
+a {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    padding-left: 2px;
+}
+
+.introtext p {
+    color: rgb(54, 38, 47);
+}
+
+.main {
+    max-width: 50%;
+}
+
+#profileimg {
+    max-width: 40%;
+    height: auto;
+    margin-left: 56%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.introtext {
+    max-width: 50%;
+    position: relative;
+    padding-top: 35px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .main {
+        min-width: 100%;
+    }
+    #profileimg {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    h1 {
+        font-family: 'Heebo', sans-serif;
+        font-weight: 800;
+        font-size: 28pt;
+        color: rgb(54, 38, 47);
+        background: #f3ebfc;
+        padding: 0;
+    }
+    .introtext {
+        max-width: 100%;
+        padding-top: 0px;
+    }
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 0.9;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    ;
+}
+
+.educ {
+    position: relative;
+    right: 25px;
+    text-align: right;
+}
+
+.job {
+    text-align: left;
+}
+
+table p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: rgb(69, 78, 95);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+li {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: rgb(54, 38, 47);
+    list-style-type: none;
+    background: #f3ebfc;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+footer h2 {
+    color: rgb(54, 38, 47)
+}
+
+@media only screen and (max-width: 800px) {
+    ul {
+        display: block;
+    }
+}
